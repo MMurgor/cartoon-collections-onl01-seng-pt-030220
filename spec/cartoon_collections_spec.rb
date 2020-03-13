@@ -17,4 +17,4 @@ def capture_stdout(&block)
   ensure
     $stdout = original_stdout
   end
-  fake.
+  fake.String 
