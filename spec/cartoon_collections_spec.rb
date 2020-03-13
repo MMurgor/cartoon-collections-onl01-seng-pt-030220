@@ -18,4 +18,4 @@ def capture_stdout(&block)
     $stdout = original_stdout
   end
   fake.String
-  
+end
